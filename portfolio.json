@@ -8,7 +8,7 @@
      "ai": ["Claude Code", "v0", "Perplexity"], "url": "https://gam-test-omega.vercel.app/", "img": "img/w1.jpg"},
     {"week": 2, "title": "EAP 문의 분류기", "line": "EAP 전화 또는 카톡 문의 요청을 입력하면 칸 · 긴급도 · 이유가 나옵니다. 문장과 정답은 직접 만들었습니다",
      "judgment": "내담자문의를 놓치는 것을 가장 나쁜 실수로 정함. 규칙은 내담자문의 3건을 놓침. 채점용 30개의 정답은 AI의 의도를 가린 채 직접 붙임.",
-     "ai": ["Claude Code", "Gemini"], "url": "https://my-classifier-rouge.vercel.app/", "img": ""}
+     "ai": ["Claude Code", "Gemini"], "url": "https://my-classifier-rouge.vercel.app/", "img": "img/w2.png"}
   ],
   "proposal": null
 }
