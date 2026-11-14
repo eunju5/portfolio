@@ -9,9 +9,9 @@
     {"week": 2, "title": "EAP 문의 분류기", "line": "EAP 전화 또는 카톡 문의 요청을 입력하면 칸 · 긴급도 · 이유가 나옵니다. 문장과 정답은 직접 만들었습니다",
      "judgment": "내담자문의를 놓치는 것을 가장 나쁜 실수로 정함. 규칙은 내담자문의 3건을 놓침. 채점용 30개의 정답은 AI의 의도를 가린 채 직접 붙임.",
      "ai": ["Claude Code", "Gemini"], "url": "https://my-classifier-rouge.vercel.app/", "img": "img/w2.png"},
-    {"week": 3, "title": "엑셀 정리기", "line": "엉망인 엑셀 · CSV를 끌어다 놓으면 진단 · 정리본 · 바꾼 것 기록이 나옵니다. 파일은 브라우저를 떠나지 않습니다",
-     "judgment": "완료율은 <완료 + 처리완료>로 셈. 3분 이하(60~180초)로 끝난 7/1 이후 전화 상담이 초 그대로 남음.",
-     "ai": ["Claude Code", "Google Colab"], "url": "https://cleaner-delta-jet.vercel.app/", "img": "img/w3.png"}
+    {"week": 3, "title": "출장비 정산 정리기", "line": "출장비 엑셀을 끌어다 놓으면 내 처방대로 정리된 엑셀파일과 바뀐 기록이 나옵니다. 업로드한 엑셀 파일은 작업하는 컴퓨터에만 있고 브라우저를 떠나지 않습니다.",
+     "judgment": "입력 값이 의심스러우면 고치지 않고 표시 컬럼에 내용을 적었습니다.",
+     "ai": ["Claude Code"], "url": "https://my-cleaner-peach.vercel.app/", "img": "img/w3.png"}
   ],
   "proposal": null
 }
