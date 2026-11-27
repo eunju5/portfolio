@@ -15,9 +15,9 @@
     {"week": 4, "title": "월간 보고 SQL 앱", "line": "매달 추출한 엑셀을 넣으면 정해 둔 질문의 답이 SQL과 함께 나옵니다",
      "judgment": "재문의는 비율(해지 36.0%)과 건수(요금 2,053건)를 같이 보기로 정했다",
      "ai": ["Claude Code (MCP · 서브에이전트)", "BigQuery", "Gemini"], "url": "https://sql-window-eight.vercel.app/", "img": "img/w4.png"},
-    {"week": 5, "title": "지표 사전", "line": "",
-     "judgment": "",
-     "ai": [], "url": "https://metric-dictionary-pink.vercel.app/", "img": "img/w5.png"}
+    {"week": 5, "title": "지표 사전", "line": "정의서대로 계산한 지표가 대시보드로 나옵니다",
+     "judgment": "활성고객 비율의 분자는 그 달 앱 로그인이 8회 이상인 고객 수, 분모는 그 달 마지막 날에 가입 상태인 고객(월말 유지 고객)으로 정함.",
+     "ai": ["Claude Code"],"url": "https://metric-dictionary-pink.vercel.app/", "img": "img/w5.png"}
   ],
   "proposal": null
 }
